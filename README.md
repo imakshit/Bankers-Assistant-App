@@ -1,9 +1,10 @@
 # Bankers-Assistant-App (minor project)
 
-##Welcome To My Repository
-**The Bankers Assistant App** is developed using Python and machine learning concepts. The UI is designed using PyQt5. 
+**Welcome To My Repository**
 
-##Features
+**The Bankers Assistant App** is developed using *Python and machine learning* concepts. The UI is designed using *PyQt5*. 
+
+## Features
 **The Bankers Assistant App** is a desktop application developed to provide assistance to a banker in various tasks.
 The app is embedded with - 
 1. *Face Recognition* - The user can save the face data of other people and can recognise them on live camera. The algorithm first saves       the data in the form of numpy arrays and later on uses **KNN** to recognise the faces on live camera. 
@@ -11,6 +12,24 @@ The app is embedded with -
 3. *Database* - A simple database developed using CRUD properties of python that provides user to save first name, last name and phone         numbers.
 4. *Automatic Text Summarizer* - Automatic text summarizer can be used to summarize a given text. It is developed using the techniqued and concepts of NLP.
 5. *Email Classifier* - Email classifier can be used to classify an email as ham or spam. It is developed using the concepts of NLP. 
+
+
+## Modules used
+1. os
+2. cv2
+3. numpy
+4. pandas
+5. pytesseract
+6. tkinter
+7. PyQt5
+8. docx
+9. re
+10. math
+11. nltk
+12. scipy
+13. misc
+14. sys
+
 
 
 ## Snapshots of Project
@@ -34,6 +53,7 @@ The app is embedded with -
 ![image_of_email_classifier](https://github.com/imakshit/Bankers-Assistant-App/blob/master/Screen_shots/ham_classifier.png)
 
 ![image_of_email_classifier](https://github.com/imakshit/Bankers-Assistant-App/blob/master/Screen_shots/Spam_classifier.png)
+
 
 
 
